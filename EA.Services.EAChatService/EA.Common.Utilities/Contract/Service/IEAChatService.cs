@@ -33,13 +33,7 @@ namespace EA.Common.Contract.Service
         [FaultContract(typeof(EAChatGeneralFault), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
         void Register(User userHandle);
 
-        //[OperationContract]
-        //[FaultContract(typeof(FaultBase), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
-        //[FaultContract(typeof(EAChatServiceFault), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
-        //[FaultContract(typeof(EAChatGeneralFault), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
-        //OnlineUsers GetUsers();
-
-
+      
         [OperationContract]
         [FaultContract(typeof(FaultBase), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
         [FaultContract(typeof(EAChatServiceFault), Namespace = "http://schemas.ea.com/chat/eachatservice/")]
